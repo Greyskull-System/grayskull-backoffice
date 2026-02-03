@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api/admin';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api/admin';
 
 interface RequestOptions extends RequestInit {
   body?: any;
